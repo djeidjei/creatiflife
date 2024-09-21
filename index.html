@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Creatif Life</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Header Section -->
+  <header>
+    <div class="container">
+      <h1 class="logo">Creatif.Life</h1>
+    </div>
+  </header>
+
+  <!-- Hero Section with Slideshow -->
+  <section class="hero">
+    <div class="slideshow-container">
+      <!-- Slideshow Images -->
+      <div class="mySlides fade">
+        <img src="images/hero01.png" style="width:100%">
+      </div>
+      <div class="mySlides fade">
+        <img src="images/hero2.png" style="width:100%">
+      </div>
+      <div class="mySlides fade">
+        <img src="images/hero3.png" style="width:100%">
+      </div>
+      <div class="mySlides fade">
+        <img src="images/hero4.png" style="width:100%">
+      </div>
+      <div class="mySlides fade">
+        <img src="images/hero5.png" style="width:100%">
+      </div>
+
+      <!-- Navigation Dots -->
+      <div class="dots-container">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+      </div>
+    </div>
+
+    <!-- Hero Text and Links (Maintaining Original Structure) -->
+    <div class="container">
+      <h1>Bring your designs to life. Mockups for the demading designer.</h1>
+      </p>
+      <p>Get faster to where you want with this curated selection of mockups.</p>
+      <div class="buttons">
+        <a href="#" class="button button-primary">Explore Now</a>
+        <a href="#" class="button button-secondary">More Info</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section class="gallery" id="gallery">
+    <div class="container">
+      <!-- Category Filters -->
+      <div class="filters">
+        <button class="filter-button active" onclick="filterGallery('all')" data-category="all">All</button>
+        <button class="filter-button" onclick="filterGallery('devices')" data-category="devices">Devices</button>
+        <button class="filter-button" onclick="filterGallery('branding')" data-category="branding">Branding</button>
+        <button class="filter-button" onclick="filterGallery('packaging')" data-category="packaging">Packaging</button>
+        <button class="filter-button" onclick="filterGallery('apparel')" data-category="apparel">Apparel</button>
+      </div>
+
+      <!-- Portfolio Grid with Links -->
+      <!-- Portfolio Grid -->
+      <div class="grid">
+        <div class="mockup-item" data-category="devices">
+          <img src="images/smartphone-mockup.png" alt="Smartphone Mockup" />
+          <h3>Smartphone Mockup</h3>
+        </div>
+
+        <div class="mockup-item" data-category="branding">
+          <img src="images/business-card-mockup.png" alt="Business Card Mockup" />
+          <h3>Business Card Mockup</h3>
+        </div>
+
+        <div class="mockup-item" data-category="packaging">
+          <img src="images/box-mockup.png" alt="Package Mockup" />
+          <h3>Package Mockup</h3>
+        </div>
+
+        <div class="mockup-item" data-category="apparel">
+          <img src="images/tshirt-mockup.png" alt="T-Shirt Mockup" />
+          <h3>T-Shirt Mockup</h3>
+        </div>
+        <div class="mockup-item" data-category="devices">
+          <img
+            src="images/vvsvs_a_collection_of_mockups_iphone_laptop_hoodie_on_a_deser_75926a1a-7817-4cdc-a49f-f11b5ba800ca_2.png"
+            alt="T-Shirt Mockup" />
+          <h3>Devices</h3>
+        </div>
+        <div class="mockup-item" data-category="devices">
+          <img
+            src="images/vvsvs_a_mockup_of_an_iphone_floating_on_a_rock_--ar_169_--sty_f602c664-3276-45f8-b762-6dd1486cce9c_2.png"
+            alt="T-Shirt Mockup" />
+          <h3>Devices</h3>
+        </div>
+        <div class="mockup-item" data-category="devices">
+          <img
+            src="images/vvsvs_a_mockup_of_an_iphone_floating_on_an_art_gallery_--ar_1_d360d686-d580-401e-b3c5-d0ef87db2700_2.png"
+            alt="T-Shirt Mockup" />
+          <h3>devices</h3>
+        </div>
+        <div class="mockup-item" data-category="branding">
+          <img
+            src="images/vvsvs_business_card_mockup_--ar_169_--stylize_0_--v_6.1_fe04a9ee-aa18-495e-9c87-1ac1820244dd_3.png"
+            alt="T-Shirt Mockup" />
+          <h3>Business Card</h3>
+        </div>
+        <div class="mockup-item" data-category="apparel">
+          <img
+            src="images/vvsvs_hoodie_mockups_in_a_tecno_hip_hop_background_--ar_169_-_3eff3a01-cfcd-4f4b-a109-26581cad9106_0.png"
+            alt="T-Shirt Mockup" />
+          <h3>Hoodie</h3>
+        </div>
+        <div class="mockup-item" data-category="apparel">
+          <img
+            src="images/vvsvs_hoodie_mockups_in_a_tecno_hip_hop_background_--ar_169_-_3eff3a01-cfcd-4f4b-a109-26581cad9106_1.png"
+            alt="T-Shirt Mockup" />
+          <h3>Hoodie</h3>
+        </div>
+        <div class="mockup-item" data-category="packaging">
+          <img
+            src="images/vvsvs_product_box_mockup_on_an_artsy_pastel_environment_with__68912276-ea7e-4277-97dd-39b0679998bb_1.png"
+            alt="T-Shirt Mockup" />
+          <h3>Packaging</h3>
+        </div>
+        <div class="mockup-item" data-category="packaging">
+          <img
+            src="images/vvsvs_product_box_mockup_on_an_artsy_pastel_environment_with__68912276-ea7e-4277-97dd-39b0679998bb_2.png"
+            alt="T-Shirt Mockup" />
+          <h3>Packaging</h3>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+      <div class="container">
+        <p>&copy; 2023 Mockup Gallery. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="scripts.js"></script>
+</body>
+
+</html>
